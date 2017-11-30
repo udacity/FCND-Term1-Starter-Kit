@@ -77,32 +77,33 @@ conda clean -tp
 
 Now that you have created an environment, in order to use it, you will need to activate the environment. This must be done **each** time you begin a new working session i.e. open a new terminal window. 
 
-**Activate** the `FCND` environment:
+**Activate** the `fcnd` environment:
 
 ### OS X and Linux
 ```sh
-$ source activate FCND
+$ source activate fcnd
 ```
 
 ### Windows
+
 Depending on shell either:
+
 ```sh
-$ source activate FCND
+$ source activate fcnd
 ```
 or
 
 ```sh
-$ activate FCND
+$ activate fcnd
 ```
 
-That's it. Now all of the `FCND` libraries are available to you.
+That's it. Now all of the `fcnd` libraries are available to you.
 
 ### Uninstalling
+
 If you ever want to delete or remove an environment 
 
-To **delete/remove** the "FCND" environment:
+To **delete/remove** the "fcnd" environment:
 ```
-conda env remove -n FCND
+conda env remove -n fcnd
 ```
-
----
