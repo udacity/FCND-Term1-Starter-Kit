@@ -1,4 +1,5 @@
 # FCND-Term1-Starter-Kit
+
 Starter kit for FCND Term 1. Python 3 is used for the entirety of term 1.
 
 Packages used:
@@ -12,6 +13,12 @@ Packages used:
 * [`utm`](https://pypi.python.org/pypi/utm)
 
 NOTE: `future` and `lxml` are required by `pymavlink`, and if they are not installed prior to `pymavlink` this may cause issues.
+
+NOTE: If you're on MacOS you'll need to install developer tools to install `pymavlink`. You can do this by typing the following into a shell:
+
+```
+xcode-select --install
+```
 
 The recommended way to get up and running:
 
