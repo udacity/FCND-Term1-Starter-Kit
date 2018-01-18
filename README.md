@@ -10,6 +10,8 @@ Packages used:
 * [`future`](https://pypi.python.org/pypi/future)
 * [`lxml`](http://lxml.de/)
 * [`pymavlink`](https://pypi.python.org/pypi/pymavlink). Common [MAVLink messages](http://mavlink.org/messages/common/). We recommend glancing over these to get a feel for the type of messages send back and forth.
+* [`websockets`](http://websockets.readthedocs.io/en/stable/intro.html)
+* [`uvloop`](https://github.com/MagicStack/uvloop)
 * [`utm`](https://pypi.python.org/pypi/utm)
 
 NOTE: `future` and `lxml` are required by `pymavlink`, and if they are not installed prior to `pymavlink` this may cause issues.
