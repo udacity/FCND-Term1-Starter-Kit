@@ -6,10 +6,5 @@ dependencies:
     - numpy
     - matplotlib
     - jupyter
-    - future
-    - lxml
     - pip:
-        - pymavlink>=2.2
-        - utm>=0.4
-        - websockets>=4.0.1
-        - uvloop>=0.9.1
+        - git+https://github.com/udacity/udacidrone.git
