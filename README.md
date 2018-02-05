@@ -25,7 +25,7 @@ Supported Sytems: MacOS, Windows, Linux
 
 ## Troubleshooting
 
-NOTE: If `future` is not installed prior to `pymavlink` this will output an error message similar to the following:
+**NOTE:** If `future` is not installed prior to `pymavlink` this will output an error message similar to the following:
 
 ```
   # omitted Traceback
@@ -49,10 +49,10 @@ python -c 'import pymavlink'
 
 if the install was successful there should be no output.
 
-NOTE: If you're on MacOS you'll need to install developer tools to install `pymavlink`. You can do this by typing the following into a shell:
+**NOTE:** If you're on MacOS you'll need to install developer tools to install `pymavlink`. You can do this by typing the following into a shell:
 
 ```
 xcode-select --install
 ```
 
-NOTE: On Windows you may need to open a terminal/powershell as an administrator. This can be done by right-clicking the program and selecting "Run as Administrator".
+**NOTE:** On Windows you may need to open a terminal/powershell as an administrator. This can be done by right-clicking the program and selecting "Run as Administrator".
