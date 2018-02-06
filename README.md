@@ -4,15 +4,10 @@ Starter kit for FCND Term 1. Python 3 is used for the entirety of term 1.
 
 Packages used:
 
-* [`numpy`](http://www.numpy.org/)
 * [`matplotlib`](https://matplotlib.org/)
 * [`jupyter`](http://jupyter.org/)
-* [`future`](https://pypi.python.org/pypi/future)
-* [`lxml`](http://lxml.de/)
-* [`pymavlink`](https://pypi.python.org/pypi/pymavlink). Common [MAVLink messages](http://mavlink.org/messages/common/). We recommend glancing over these to get a feel for the type of messages send back and forth.
-* [`websockets`](http://websockets.readthedocs.io/en/stable/intro.html)
-* [`uvloop`](https://github.com/MagicStack/uvloop)
-* [`utm`](https://pypi.python.org/pypi/utm)
+* [`udacidrone`](https://github.com/udacity/udacidrone)
+* [`visdom`](https://github.com/facebookresearch/visdom/)
 
 
 The recommended way to get up and running:
@@ -44,7 +39,7 @@ Successfully installed chardet-3.0.4 future-0.16.0 idna-2.6 lxml-4.1.1 pillow-5.
 If the output is `Successfully installed ... pymavlink ..` it's likely the install is fine. You can check by running:
 
 ```
-python -c 'import pymavlink'
+python -c "import pymavlink"
 ```
 
 if the install was successful there should be no output.
