@@ -9,6 +9,7 @@ dependencies:
     - lxml==4.1.1
     - networkx==2.1
     - scikit-image==0.13.1
+    - scipy==1.0.0
     - pip:
         - git+https://github.com/udacity/udacidrone.git
         - visdom==0.1.7
