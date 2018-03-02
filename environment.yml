@@ -10,9 +10,10 @@ dependencies:
     - networkx==2.1
     - scikit-image==0.13.1
     - scipy==1.0.0
+    - shapely==1.6.4
     - pip:
         - git+https://github.com/udacity/udacidrone.git
         - visdom==0.1.7
         - bresenham==0.2
-        - shapely==1.6.4
+        
 
