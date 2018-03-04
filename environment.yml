@@ -15,5 +15,6 @@ dependencies:
         - git+https://github.com/udacity/udacidrone.git
         - visdom==0.1.7
         - bresenham==0.2
+        - msgpack==0.5.6
         
 
