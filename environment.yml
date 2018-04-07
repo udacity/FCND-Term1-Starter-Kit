@@ -11,6 +11,7 @@ dependencies:
     - scikit-image==0.13.1
     - scipy==1.0.0
     - shapely==1.6.4
+    - sklearn==0.19.1
     - pip:
         - git+https://github.com/udacity/udacidrone.git
         - visdom==0.1.7
