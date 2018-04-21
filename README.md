@@ -6,7 +6,7 @@ Packages used:
 
 * [`matplotlib`](https://matplotlib.org/)
 * [`jupyter`](http://jupyter.org/)
-* [`udacidrone`](https://github.com/udacity/udacidrone)
+* [`udacidrone`](https://github.com/udacity/udacidrone). Due to `udacidrone` being updated as the ND progresses, it's recommended for new projects you update udacidrone with `pip install --upgrade udacidrone`.
 * [`visdom`](https://github.com/facebookresearch/visdom/)
 
 
